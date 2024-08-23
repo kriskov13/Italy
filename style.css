@@ -1,0 +1,515 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal; 
+}
+
+
+header {
+    background: url(https://i.natgeofe.com/k/e9781357-7abe-4d48-96d2-1151d9fd265a/italy-coliseum.jpg?wp=1&w=1084.125&h=609) no-repeat;
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-link {
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    margin: 24px 20px;
+    opacity: 0.5;
+}
+
+.nav-link:hover{
+    opacity: 1;
+    transition: 0.5s;
+}
+
+
+.heading{
+    font-size: 80px;
+    display: flex;
+    justify-content: left;
+    margin-left: 15%;
+    margin-top: 20px;
+    color: white;
+    text-shadow: 2px 1px 20px black;
+    margin-bottom: 50px;
+}
+
+
+.after-heading{
+    font-size: 24px;
+    display: flex;
+    justify-content: left;
+    margin-left: 15%;
+    margin-top: 20px;
+    color: rgb(0, 0, 0);
+    text-shadow: 1px 1px 2px white, 0 0 1em white, 0 0 0.2em white;
+}
+
+.tyr {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(170, 80, 16);
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    width: 14%;
+    margin-left: 70%;
+}
+
+.tyr:hover{
+    background-color: rgb(129, 63, 16);
+    transition: 0.5s;
+}
+
+#button1{
+    border: 2px solid black;
+    border-radius: 30px;
+    padding: 10px 16px;
+}
+
+#button2{
+    font-weight: 700;
+    opacity: 1;
+}
+
+
+#button2::before {
+    content: '';
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-image: url('images/phone.png');
+    background-size: contain; /* Або cover, якщо потрібно повністю заповнити елемент */
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: -10px;
+}
+
+
+
+
+
+
+
+
+.heading2{
+    font-size: 40px;
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.heading2 span{
+    color:rgb(170, 80, 16);
+}
+
+
+.card{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    margin: 12px 10px;
+}
+
+.card img{
+    width: 250px;
+    border-radius: 30px;
+}
+
+.card h2{
+    font-size: 16px;
+    margin-bottom: 10px;
+    width: 250px;
+    text-align: center;
+}
+
+.card p{
+    font-size: 12px;
+    width: 250px;
+    text-align: center;
+}
+
+.section1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 200px;
+}
+
+.heading3{
+    font-size: 40px;
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.heading3 span{
+    color:rgb(170, 80, 16);
+}
+
+.section2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 200px;
+    
+
+}
+
+.badge{
+    display: flex;
+    flex-direction: column;
+    margin: 15px 15px;
+    justify-content: center;
+    margin: 20px;
+}
+
+.badge img{
+    width: 50px;
+}
+
+.badge h2{
+    font-size: 16px;
+    width: 250px;
+    /* text-align: center; */
+    width: 280px;
+    margin-left: 20px;
+}
+
+.badge p{
+    width: 280px;
+}
+
+.badge div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 280px;
+    margin-bottom: 15px;
+}
+
+
+.broniuvaty{
+    display: flex;
+    justify-content: center;
+}
+
+.broniuvaty a{
+    display: inline;
+    margin-top: 40px;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(170, 80, 16);
+    border-radius: 30px;
+    padding: 20px 40px;
+}
+
+
+.heading4{
+    font-size: 40px;
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.heading4 span{
+    color:rgb(170, 80, 16);
+}
+
+
+.season{
+    
+    display: flex;
+    justify-content: center;
+}
+
+.block{
+    /* height: 100px; */
+    width: 45%;
+    background-color: #875e4071;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.block div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.block div h2{
+    font-size: 20px;
+    color:rgb(170, 80, 16);
+}
+
+.block div p{
+    font-size: 16px;
+}
+
+
+.section3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    margin: 20px 20%;
+}
+.rows{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.rows h2{
+    margin: 0 100px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+
+.heading5{
+    font-size: 40px;
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.heading5 span{
+    color:rgb(170, 80, 16);
+}
+
+.card4{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 40px 0;
+}
+
+.forpos{
+    position: relative;
+    right: 40px;
+}
+
+.card4 p{
+    margin: 0 20px;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.section4{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.more{
+    display: flex;
+    justify-content: center;
+}
+
+.more a{
+    display: inline;
+    margin-top: 40px;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(207, 117, 0);
+    border-radius: 30px;
+    padding: 20px 40px;
+}
+
+.card5{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card5 img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.divforpos{
+    background-color: rgb(170, 80, 16);
+    border-radius: 20px;
+    padding: 20px 40px;
+    width: 70%;
+    position: relative;
+    bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.divforpos p{
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.card5 p{
+    text-align: center;
+}
+
+.section5{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+.card6{
+    width:250px;
+    background-image: linear-gradient(to right, #875E40 , #875e40aa);
+    border-radius: 30px;
+    padding: 40px 20px;
+
+}
+
+.card6 img{
+    position: absolute;
+}
+
+.card6 .time{
+    color:white;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.card6 .place{
+    color:white;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.card6 .descrip{
+    color:white;
+    font-size: 16px;
+    font-weight: 200;
+}
+
+.section6{
+    flex-direction: row;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.section7{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.section8{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.section8 img{
+    width: 600px;
+}
+
+.section9{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+
+}
+
+.section10{
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.badge2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px;
+    box-shadow: 3px 3px 30px gray;
+    border-radius: 30px;
+    padding: 28px 20px;
+}
+
+.badge2 img{
+    width: 50px;
+}
+
+.badge2 h2{
+    font-size: 16px;
+    width: 150px;
+    /* text-align: center; */
+    width: 250px;
+    margin-left: 20px;
+}
+
+.badge2 p{
+    width: 250px;
+}
+
+.badge2 div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 250px;
+    margin-bottom: 15px;
+}
+
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #875e4057;
+    padding: 40px;
+}
+
+footer p{
+    color: gray;
+    margin-top: 20px;
+}
